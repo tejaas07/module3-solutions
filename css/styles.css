@@ -1,0 +1,173 @@
+body {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  background-color: grey;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #33b5e5;
+  border-radius: 0px;
+  border: 0;
+  padding-bottom: 15px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list {
+  color: black;
+  text-align: center;
+  background-color: grey;
+  margin-top: 10px; 
+  font-size: 1.8em;
+}
+
+#nav-list :hover {
+  background: #CD5C5C;
+}
+
+
+
+
+/***Text Styling***/
+
+#p1 {
+position: relative;
+  border: 2px solid black;
+  background-color: #33b5e5 ;
+  text-align: left;
+  padding-top: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin: 20px;
+  font-family: "Arial", times, Helvetica ;
+  color: black;
+  box-sizing: border-box;
+}
+
+#p2{
+	position: absolute;
+	box-sizing: border-box;
+	top: -1px;
+	right: -2px;
+	width: 100px;
+	text-align: center;
+	padding: 1px;
+  border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	background-color: pink;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Arial", times, Helvetica ;
+}
+#p3{
+	position: absolute;
+	top: 0px;
+	right: -2px;
+	width: 100px;
+	text-align: center;
+	padding: 1px;
+	box-sizing: border-box;
+   border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	background-color: #CD5C5C;
+	font-size: 20px;
+	font-weight: bold;
+    font-family: "Arial", times, Helvetica ;	
+}
+
+#p4{
+	position: absolute;
+	top: 0px;
+	right: -2px;
+	width: 100px;
+	text-align: center;
+	padding: 1px;
+	box-sizing: border-box;
+   border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	background-color: gold;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Arial", times, Helvetica ;
+}
+
+/*Large Device only*/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 100%;
+  }
+  .col-lg-2 {
+    width: 100%;
+  }
+  .col-lg-3 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 100%;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3 {
+    float: left;
+  }
+  .col-sm-1 {
+    width: 100%;
+  }
+  .col-sm-2 {
+    width: 100%;
+  }
+  .col-sm-3 {
+    width: 100%;
+  }
+}
